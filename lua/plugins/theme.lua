@@ -1,6 +1,4 @@
-vim.pack.add({
-    { src = "https://github.com/sainnhe/gruvbox-material" }
-})
+vim.pack.add({ "https://github.com/sainnhe/gruvbox-material" })
 
 if vim.fn.has("termguicolors") == 1 then
     vim.opt.termguicolors = true
