@@ -7,6 +7,9 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 
 ## Plugins
 
+### Formatting
+- [conform.nvim](https://github.com/stevearc/conform.nvim) - Autoformat files on save
+
 ### Navigation
 - [fff](https://github.com/dmtrKovalenko/fff) - Fuzzy file finder
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - File explorer
