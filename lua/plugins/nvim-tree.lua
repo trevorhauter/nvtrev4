@@ -1,6 +1,6 @@
 vim.pack.add({
-  { src = 'https://github.com/nvim-tree/nvim-web-devicons' },
-  { src = 'https://github.com/nvim-tree/nvim-tree.lua' },
+    { src = "https://github.com/nvim-tree/nvim-web-devicons" },
+    { src = "https://github.com/nvim-tree/nvim-tree.lua" },
 })
 
 -- Turn off netrw because nvim-tree replaces it
@@ -16,5 +16,15 @@ require("nvim-tree").setup({
     filters = { custom = { "^.git$", "^.gitignore$" } },
 })
 
-vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>n", ":NvimTreeFindFile<CR>", { noremap = true, silent = true })
+vim.keymap.set(
+    "n",
+    "<C-n>",
+    ":NvimTreeToggle<CR>",
+    { noremap = true, silent = true }
+)
+vim.keymap.set(
+    "n",
+    "<leader>n",
+    ":NvimTreeFindFile<CR>",
+    { noremap = true, silent = true }
+)
