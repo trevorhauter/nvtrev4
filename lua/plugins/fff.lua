@@ -17,4 +17,9 @@ vim.g.fff = {
   debug = { enabled = true, show_scores = true },
 }
 
+-- Customize appearance 
+vim.api.nvim_set_hl(0, "NormalFloat", { link = "Normal" })
+vim.api.nvim_set_hl(0, "FloatBorder", { link = "FloatBorder" })
+
+
 vim.keymap.set('n', 'ff', function() require('fff').find_files() end, { desc = 'FFFind files' })
