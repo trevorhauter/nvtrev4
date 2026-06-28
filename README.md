@@ -19,6 +19,7 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 - [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) - Provide visual aids for what functions/class/etc you are currently in
 
 ### Misc
+- [eyeliner.nvim](https://github.com/jinh0/eyeliner.nvim) - Provides `f`/`F` indicators for faster movement
 - [nvim-surround.nvim](https://github.com/kylechui/nvim-surround/tree/main) - Surround selection and manipulation of pairs (e.g. parenthesis)
 - [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) - Better terminal integration inside Neovim
 
