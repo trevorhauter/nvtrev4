@@ -20,6 +20,7 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 
 ### Misc
 - [eyeliner.nvim](https://github.com/jinh0/eyeliner.nvim) - Provides `f`/`F` indicators for faster movement
+- [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Fast configurable statusline
 - [nvim-surround.nvim](https://github.com/kylechui/nvim-surround/tree/main) - Surround selection and manipulation of pairs (e.g. parenthesis)
 - [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) - Better terminal integration inside Neovim
 
