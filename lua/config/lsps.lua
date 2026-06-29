@@ -20,82 +20,13 @@ require("mason-lspconfig").setup({
     automatic_enable = true,
 })
 
--- set up auto completion for each server (along with any other extra configuration)
-
-local capabilities = require("blink.cmp").get_lsp_capabilities()
-
-vim.lsp.config("bashls", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("jdtls", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("clangd", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("cssls", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("emmet_language_server", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("eslint", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("gh_actions_ls", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("html", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("intelephense", {
-    capabilities = capabilities,
-})
-
 vim.lsp.config("lua_ls", {
-    capabilities = capabilities,
     settings = {
-
         Lua = {
-
             diagnostics = {
-
                 -- Get the language server to recognize the `vim` global
-
                 globals = { "before_each", "vim", "describe", "it" },
             },
         },
     },
-})
-
-vim.lsp.config("pyright", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("rust_analyzer", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("terraformls", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("tflint", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("ts_ls", {
-    capabilities = capabilities,
-})
-
-vim.lsp.config("zls", {
-    capabilities = capabilities,
 })
