@@ -20,3 +20,6 @@ vim.opt.relativenumber = true
 vim.opt.scrolloff = 8
 vim.opt.smartindent = true
 vim.opt.wrap = true
+
+-- Load in any visual modifications after everything else
+require("config.appearance")
