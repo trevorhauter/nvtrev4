@@ -25,6 +25,3 @@ require("eyeliner").setup({
     -- see section on advanced configuration for more information
     default_keymaps = true,
 })
-
-vim.api.nvim_set_hl(0, "EyelinerPrimary", { fg = "#afff5f", bold = true })
-vim.api.nvim_set_hl(0, "EyelinerSecondary", { fg = "#5fffff" })
