@@ -7,6 +7,9 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 
 ## Plugins
 
+### Git
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration
+
 ### Formatting
 - [conform.nvim](https://github.com/stevearc/conform.nvim) - Autoformat files on save
 
