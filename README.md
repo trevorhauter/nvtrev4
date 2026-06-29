@@ -10,6 +10,13 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 ### Formatting
 - [conform.nvim](https://github.com/stevearc/conform.nvim) - Autoformat files on save
 
+### LSP
+- [mason.nvim](https://github.com/mason-org/mason.nvim) - Automatic language server installation
+- [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) - Integrate mason with nvim-lspconfig
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Configure LSPs with Neovim
+- [blink](https://github.com/saghen/blink.cmp) - LSP powered autocomplete
+- [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - Snippets for many programming languages
+
 ### Navigation
 - [fff](https://github.com/dmtrKovalenko/fff) - Fuzzy file finder
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - File explorer
