@@ -24,6 +24,10 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 - [fff](https://github.com/dmtrKovalenko/fff) - Fuzzy file finder
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - File explorer
 
+### Note taking
+- [neowiki.nvim](https://github.com/echaya/neowiki.nvim) - Minimalist wiki tool
+- [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) - Markdown rendering inside Neovim
+
 ### Syntax highlighting
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - Autoinstall and configure parsers for configured languages
 - [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) - Provide visual aids for what functions/class/etc you are currently in
@@ -35,6 +39,7 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 - [nvim-auropairs](https://github.com/windwp/nvim-autopairs) - Automatically close pairs upon creation (e.g. parenthesis)
 - [nvim-surround.nvim](https://github.com/kylechui/nvim-surround/tree/main) - Surround selection and manipulation of pairs (e.g. parenthesis)
 - [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) - Better terminal integration inside Neovim
+- [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - Icons used across many plugins
 
 ### Theme
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - The greatest theme ever created
