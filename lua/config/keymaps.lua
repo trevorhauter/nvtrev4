@@ -11,3 +11,14 @@ vim.keymap.set("n", "gy", vim.lsp.buf.type_definition) -- Go to type definition
 vim.keymap.set("n", "[d", vim.diagnostic.goto_prev) -- Previous diagnostic
 vim.keymap.set("n", "]d", vim.diagnostic.goto_next) -- Next diagnostic
 vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float) -- Show error
+
+-- Move code around with selection
+vim.api.nvim_create_autocmd("BufEnter", {
+    pattern = "*", -- You can specify a specific file type or pattern here
+    callback = function()
+        if vim.bo.modifiable then
+            vim.api.nvim_buf_set_keymap(0, "v", "<C-j>", ":m '>+1<CR>gv=gv", {})
+            vim.api.nvim_buf_set_keymap(0, "v", "<C-k>", ":m '<-2<CR>gv=gv", {})
+        end
+    end,
+})
