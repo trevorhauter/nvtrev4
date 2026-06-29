@@ -1,6 +1,6 @@
 vim.pack.add({ "https://github.com/dmtrKovalenko/fff.nvim" })
 
--- TODO: THis doesn't work. I had to run
+-- TODO: This doesn't work. I had to run
 -- :lua require('fff.download').download_or_build_binary() manually
 vim.api.nvim_create_autocmd("PackChanged", {
     callback = function(ev)
@@ -21,4 +21,7 @@ vim.g.fff = {
 
 vim.keymap.set("n", "<leader>f", function()
     require("fff").find_files()
+end, { desc = "FFFind files" })
+vim.keymap.set("n", "<leader>/", function()
+    require("fff").live_grep({ grep = { modes = { "fuzzy", "plain" } } })
 end, { desc = "FFFind files" })
