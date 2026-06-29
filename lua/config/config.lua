@@ -1,9 +1,9 @@
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+
 require("plugins")
 require("config.lsps")
 require("config.keymaps")
-
-vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
 
 vim.diagnostic.config({ virtual_text = true }) -- lsp warnings
 
