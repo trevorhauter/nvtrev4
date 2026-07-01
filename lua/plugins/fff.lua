@@ -17,9 +17,6 @@ vim.api.nvim_create_autocmd("PackChanged", {
 vim.g.fff = {
     lazy_sync = true,
     debug = { enabled = true, show_scores = true },
-    hl = {
-        winhl = "NormalFloat:Normal,FloatBorder:Normal,FloatTitle:Title",
-    },
 }
 
 vim.keymap.set("n", "<leader>f", function()
