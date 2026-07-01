@@ -39,6 +39,7 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 - [eyeliner.nvim](https://github.com/jinh0/eyeliner.nvim) - Provides `f`/`F` indicators for faster movement
 - [leap.nvim](https://codeberg.org/andyg/leap.nvim) - Move around files at lightning speed
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) - Fast configurable statusline
+- [neoscroll](https://github.com/karb94/neoscroll.nvim) - Smooth scrolling
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs) - Automatically close pairs upon creation (e.g. parenthesis)
 - [nvim-notify](https://github.com/rcarriga/nvim-notify#Installation) - Beautiful notifications
 - [nvim-surround.nvim](https://github.com/kylechui/nvim-surround/tree/main) - Surround selection and manipulation of pairs (e.g. parenthesis)

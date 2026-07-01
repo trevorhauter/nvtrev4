@@ -56,6 +56,10 @@
       "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
       "src": "https://github.com/williamboman/mason.nvim"
     },
+    "neoscroll.nvim": {
+      "rev": "c8d29979cb0cb3a2437a8e0ae683fd82f340d3b8",
+      "src": "https://github.com/karb94/neoscroll.nvim"
+    },
     "neowiki.nvim": {
       "rev": "85dddf6057b07d4d6772b2f90e754a18e958a865",
       "src": "https://github.com/echaya/neowiki.nvim"
