@@ -12,7 +12,7 @@ vim.api.nvim_set_hl(0, "FloatTitle", { link = "Title" })
 -- Customize appearance of fff.nvim
 -- TODO: This should be configurable via fff.nvim config options. Send a patch
 -- upstream to fix this.
-vim.api.nvim_set_hl(0, "IncSearch", { bg = bright_green })
+vim.api.nvim_set_hl(0, "IncSearch", { fg = bright_green })
 
 -- Customize apperance of eyeline.nvim
 vim.api.nvim_set_hl(0, "EyelinerPrimary", { fg = bright_green, bold = true })
