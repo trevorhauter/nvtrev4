@@ -9,6 +9,7 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 ## Plugins
 
 ### Git
+- [gitportal.nvim](https://codeberg.org/trevorhauter/gitportal.nvim) - Jump between github & neovim FAST!
 - [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) - Git integration
 
 ### Formatting

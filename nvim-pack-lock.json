@@ -24,6 +24,10 @@
       "rev": "6cd7280adead7f586db6fccbd15d2cac7e2188b9",
       "src": "https://github.com/rafamadriz/friendly-snippets"
     },
+    "gitportal.nvim": {
+      "rev": "ee5446aa17738a419e855e2e4c01cb65e378e4cb",
+      "src": "https://codeberg.org/trevorhauter/gitportal.nvim"
+    },
     "gitsigns.nvim": {
       "rev": "2038c666bd9d8a0b7349a0b6ee00dc83104b9ecf",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
