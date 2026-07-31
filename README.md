@@ -23,6 +23,7 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 - [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) - Snippets for many programming languages
 
 ### Navigation
+- [arrow.nvim](https://github.com/otavioschwanck/arrow.nvim) - Mark project files 
 - [fff](https://github.com/dmtrKovalenko/fff) - Fuzzy file finder
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - File explorer
 
