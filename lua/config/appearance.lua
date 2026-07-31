@@ -18,4 +18,4 @@ vim.api.nvim_set_hl(0, "EyelinerSecondary", { fg = bright_blue })
 -- TODO: Should these be upstreamed to the theme?
 vim.api.nvim_set_hl(0, "GitSignsDeleteInline", { fg = bright_green, bg = gray })
 vim.api.nvim_set_hl(0, "GitSignsChangeInline", { fg = bright_blue, bg = gray })
-vim.api.nvim_set_hl(0, "GitSignsAddInline", { bg = gray })
+vim.api.nvim_set_hl(0, "GitSignsAddInline", { fg = bright_green, bg = gray })
