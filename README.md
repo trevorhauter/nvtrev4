@@ -46,6 +46,7 @@ Noevim config rewritten for 0.12. Thoroughly documented and well organized to pr
 - [nvim-surround.nvim](https://github.com/kylechui/nvim-surround/tree/main) - Surround selection and manipulation of pairs (e.g. parenthesis)
 - [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) - Icons used across many plugins
 - [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) - Better terminal integration inside Neovim
+- [zen-mode.nvim](https://github.com/folke/zen-mode.nvim) - Distraction free coding
 
 ### Theme
 - [gruvbox-material](https://github.com/sainnhe/gruvbox-material) - The greatest theme ever created
