@@ -3,6 +3,7 @@
 
 local bright_green = "#afff5f"
 local bright_blue = "#5fffff"
+local gray = "#777777"
 
 -- Adjust styling of all floating windows
 vim.api.nvim_set_hl(0, "NormalFloat", { link = "Normal" })
@@ -15,5 +16,6 @@ vim.api.nvim_set_hl(0, "EyelinerSecondary", { fg = bright_blue })
 
 -- Customize appearance of gitsigns
 -- TODO: Should these be upstreamed to the theme?
-vim.api.nvim_set_hl(0, "GitSignsDeleteInline", { fg = bright_green })
-vim.api.nvim_set_hl(0, "GitSignsChangeInline", { fg = bright_blue })
+vim.api.nvim_set_hl(0, "GitSignsDeleteInline", { fg = bright_green, bg = gray })
+vim.api.nvim_set_hl(0, "GitSignsChangeInline", { fg = bright_blue, bg = gray })
+vim.api.nvim_set_hl(0, "GitSignsAddInline", { bg = gray })
