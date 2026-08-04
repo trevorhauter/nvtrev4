@@ -4,6 +4,7 @@ require("mason-lspconfig").setup({
         "bashls",
         "clangd",
         "cssls",
+        -- "easy-coding-standard", -- doesn't install automatically for some reason - have to run MasonInstall
         "emmet_language_server",
         "eslint",
         "gh_actions_ls",
