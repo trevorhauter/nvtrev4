@@ -9,10 +9,18 @@ local function get_visual_selection()
     return selection
 end
 
-local function runTestForSelection()
+local function runDjangoTestForSelection()
     local selection = get_visual_selection()
     vim.cmd("TermExec cmd='djt " .. selection .. "'")
 end
 
+local function runPytestForSelection()
+    local selection = get_visual_selection()
+    vim.cmd("TermExec cmd='pytest -v -k" .. selection .. "'")
+end
+
+-- TODO: I want to make this more flexible but don't have the time yet
+vim.keymap.set("v", "<cr>t", runPytestForSelection)
+
 -- Django mapping to run tests easily in visual mode
-vim.keymap.set("v", "<cr><cr>", runTestForSelection)
+vim.keymap.set("v", "<cr><cr>", runDjangoTestForSelection)
