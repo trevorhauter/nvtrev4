@@ -21,7 +21,7 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.smartindent = true
 vim.opt.swapfile = false
-vim.opt.wrap = true
+vim.opt.wrap = false
 
 -- Load in any visual modifications after everything else
 require("config.appearance")

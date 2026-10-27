@@ -1,6 +1,9 @@
 vim.pack.add({ "https://github.com/stevearc/conform.nvim" })
 
 require("conform").setup({
+    format_on_save = {
+        timeout_ms = 10000,
+    },
     formatters_by_ft = {
         c = { "clang-format" },
         javascript = { "eslint_d" },
